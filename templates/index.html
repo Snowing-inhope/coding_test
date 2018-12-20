@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <h2>Please enter the Goods ID to query...</h2>
+    <input type="text" id="text1">
+    <button type="submit" class="btn1">submit</button>
+    <table border="1" id="box">
+        <tr>
+            <th>goods</th>
+            <th>seller</th>
+            <th>date</th>
+            <th>price</th>
+            <th>average_score</th>
+            <th>reviews</th>
+            <th>rankings</th>
+        </tr>
+    </table>
+    <script type="text/javascript" charset="utf-8" src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>
